@@ -50,6 +50,17 @@ main {
     font-size: 1.4em;
     margin: 20px 20vw;
 }
+.politica-ads, .termos {
+    font-size: 1.2em;
+    margin: 30px 23vw;
+}
+.politica-ads li {
+    margin: 40px 0px;
+}
+.termos li {
+    margin: 25px 0px;
+}
+
 .env-concei {
     width: 100%;
     height: 100%;
