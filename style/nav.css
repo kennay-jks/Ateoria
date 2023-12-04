@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
 html, body {
     overflow: hidden;
     background: #d6d6d6;
     min-zoom: 1.25;
+}
+:active {
+    background: transparent;
 }
 nav {
     display: flex;
@@ -28,13 +33,10 @@ nav p, nav input, nav .busca {
     display: none;
     margin-left: 10px;
 }
-nav:hover p, nav:hover input {
+nav:hover p, nav:hover input, nav:hover h1 {
     display: block;
 }
-nav:hover h1 {
-    display: block;
-}
-nav:hover .busca, nav:hover .logo {
+nav:hover .busca{
     display: flex;
 }
 nav:hover {
@@ -85,7 +87,7 @@ nav:hover .lp, nav:hover .lb {
     margin-left: 0;
 }
 .logo {
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -119,7 +121,9 @@ nav:hover .lp, nav:hover .lb {
 }
 .logo-link h1 {
     display: none;
-    font-size: 1.1em;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.6em;
+    font-weight: lighter;
 }
 .logo-link a {
     font-size: 1.2em;
@@ -372,10 +376,12 @@ footer a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100px;
-        font-size: 1.2em;
-        font-family: monospace;
+        width:auto;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.5em;
+        font-weight: lighter;
         margin-left: 30px;
+        padding: 0;
     }
     .busca-mobile {
         display: flex;
@@ -500,7 +506,7 @@ footer a:hover {
     }
     footer {
         width: 100vw;
-        height: 640px;
+        height: 660px;
     }
 }
 @media screen and (max-height:485px) {
@@ -513,7 +519,7 @@ footer a:hover {
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 9vh;
+        height: 55px;
         padding-top: 1vh;
         padding: 0;
         box-shadow: 3px 3px 5px #00000046;
@@ -521,26 +527,37 @@ footer a:hover {
         position: absolute;
         top: 0;
         left: 0px;
-        z-index: 999;
+        z-index: 10;
     }
     nav:hover {
         width: 100vw;
-        height: 9vh;
+        height: 55px;
 
         position: absolute;
         top: 0;
         left: 0px;
         z-index: 999;
     }
+    #search-mobile {
+        display: block;
+        border-left: 1px solid #080808;
+        margin-left: 6px;
+    }
+    .env-search-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .viewBtn {
+        cursor: pointer;
+        margin: auto;
+
+    }
     .env-lista {
         display: none;
     }
     .env-mode {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 50vw;
-        height: auto;
+        width: auto;
     }
     .env-linha {
         display: flex;
@@ -573,57 +590,144 @@ footer a:hover {
     }
     .env-mobile {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: flex-end;
-        padding: 0px 40px 0px 0px;
-        width: 50vw;
-        height: auto;
+        align-items: center;
+        width: auto;
+        height: 100%;
     }
     .dark-mode {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin: 0px 25px;
         cursor: pointer;
+    }
+    .env-all {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+        padding-right: 20px;
+        overflow: hidden;
+    }
+    .logo-mobile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 60%;
+    }
+    .logo-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:auto;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.5em;
+        font-weight: lighter;
+        margin-left: 30px;
+        padding: 0;
+    }
+    .busca-mobile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .busca {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background: #d6d6d6;
+        padding: 2px 8px;
+        max-width: 300px;
+    }
+    .env-busca-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to top, transparent, #d6d6d6);
+        width: 100%;
+        height: 0px;
+        transition: .3s linear;
+        z-index: 5;
+    }
+    .env-busca-mobile.view {
+        height: calc(100vh - 55px);
+        top: 55px;
+        padding: 40px 0px 30px;
+    }
+    nav .busca {
+        display: flex;
+    }
+    nav #search {
+        display: block;
     }
     main {
         height: 100vh;
+        width: 100vw;
 
         position: relative;
-        top: 9vh;
+        top: 56px;
     }
     .right-f {
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 60vw;
-        height: 90vh;
+        height: 80vh;
         background: #d6d6d6;
         box-shadow: -4px 4px 10px #00000046;
         border-radius: 0px 0px 0px 15px;
         transition: .3s;
+        padding-bottom: 20px;
 
         position: absolute;
-        top: 9vh;
+        top: 55px;
         right: -100%;
-        z-index: 998;
+        z-index: 9;
     }
     .right-f.active {
         right: 0;
     }
+    .right-f.disp {
+        display: flex;
+    }
     .aba {
-        margin: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2vh 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .aba p {
+        margin-left: 15px;
     }
     .aba-n {
         justify-content: flex-start;
         padding-left: 15px;
-        width: 90%;
+        width: 95%;
     }
     .aba-n:hover {
         background: #08080846;
         padding: 0px 15px 0px 15px;
+    }
+    .obri {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+    }
+    .obri a {
+        font-size: .7em;
+    }
+    .obri a:hover {
+        opacity: .5;
     }
     .menu {
         display: flex;
@@ -632,5 +736,20 @@ footer a:hover {
         align-items: flex-start;
         width: 100%;
         height: 100%;
+    }
+    .env-link-footer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .redes {
+        flex-direction: row;
+    }
+    footer {
+        width: 100vw;
+        height: 660px;
     }
 }
