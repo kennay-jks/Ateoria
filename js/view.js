@@ -7,7 +7,7 @@ function getUrlParameter(name) {
 }
 
   // Ler o parâmetro da busca da URL
-  let searchTerm = getUrlParameter('busca').toLowerCase()
+  let searchTerm = getUrlParameter('busca').toLowerCase().trim()
 
   // Aplicar o filtro
   let items = document.querySelectorAll(".link")
