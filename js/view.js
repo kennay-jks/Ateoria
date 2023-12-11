@@ -7,16 +7,27 @@ function getUrlParameter(name) {
 }
 
   // Ler o parâmetro da busca da URL
-  let searchTerm = getUrlParameter('busca').toLowerCase().trim()
+let searchTerm = getUrlParameter('busca').toLowerCase().trim()
 
-  // Aplicar o filtro
-  let items = document.querySelectorAll(".link")
+// Aplicar o filtro
+let items = document.querySelectorAll(".link")
 
-  items.forEach(function(item) {
-    let dataSearch = item.getAttribute("data-search").toLowerCase()
-    if (dataSearch.includes(searchTerm)) {
-      item.style.display = "flex"
-    } else {
-      item.style.display = "none"
-    }
+items.forEach(function(item) {
+  let dataSearch = item.getAttribute("data-search").toLowerCase()
+  if (dataSearch.includes(searchTerm)) {
+    item.style.display = "flex"
+  } else {
+    item.style.display = "none"
+  }
+})
+
+let itemscon = document.querySelectorAll(".link-con")
+
+itemscon.forEach(function(item) {
+  let dataSearch = item.getAttribute("data-search").toLowerCase()
+  if (dataSearch.includes(searchTerm)) {
+    item.style.display = "flex"
+  } else {
+    item.style.display = "none"
+  }
 })
