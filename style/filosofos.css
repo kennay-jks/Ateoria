@@ -59,6 +59,13 @@
     background-size: cover;
 }
 
+/* curiosidades */
+
+.teste {
+    background: #d6d6d6 url(../img/conceitos/tarde-min.jpg) center no-repeat;
+    background-size: cover;
+}
+
 /* conceitos */
 
 .oqfl {
@@ -66,7 +73,21 @@
     background-size: cover;
 }
 .estoico {
-    background: #d6d6d6 url(../img/conceitos/estoico.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/conceitos/tarde-min.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.metafisica {
+    background: #d6d6d6 url(../img/conceitos/fumaça-metafisica.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.existencialismo {
+    background: #d6d6d6 url(../img/conceitos/olho-existencialismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.sofistas {
+    background: #d6d6d6 url(../img/conceitos/professor-sofistas.jpg) center no-repeat;
     background-size: cover;
 }
 
