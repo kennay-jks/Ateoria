@@ -1,0 +1,117 @@
+.oqfl {
+    background: #d6d6d6 url(../img/conceitos/a-academia.jpg) center no-repeat;
+    background-size: cover;
+}
+.estoico {
+    background: #d6d6d6 url(../img/conceitos/tarde-min.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.metafisica {
+    background: #d6d6d6 url(../img/conceitos/fumaça-metafisica.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.maquiavelismo {
+    background: #d6d6d6 url(../img/conceitos/maquiavelismo.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.existencialismo {
+    background: #d6d6d6 url(../img/conceitos/olho-existencialismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.sofistas {
+    background: #d6d6d6 url(../img/conceitos/professor-sofistas.jpg) center no-repeat;
+    background-size: cover;
+}
+.platonicos {
+    background: #d6d6d6 url(../img/conceitos/platonicos.jpg) center no-repeat;
+    background-size: cover;
+}
+.racionalismo {
+    background: #d6d6d6 url(../img/conceitos/floresta-nevoa.jpg) center no-repeat;
+    background-size: cover;
+}
+.iluminismo {
+    background: #d6d6d6 url(../img/conceitos/floresta-pinheiro.jpg) center no-repeat;
+    background-size: cover;
+}
+.fenomenologia {
+    background: #d6d6d6 url(../img/conceitos/nuvens.jpg) center no-repeat;
+    background-size: cover;
+}
+.renascimento {
+    background: #d6d6d6 url(../img/conceitos/estatua-davi.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* titulo dos conceitos */
+
+.titulo-filosofia {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/a-academia.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-estoico {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/estoico.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-maquiavelismo {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/maquiavelismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-platonicos {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/platonicos.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-racionalismo {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/floresta-nevoa.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-iluminismo {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/floresta-pinheiro.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-fenomenologia {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/nuvens.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-renascimento {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/estatua-davi.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* dark */
+
+.dark .titulo-filosofia {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/a-academia.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-estoico {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/estoico.jpg) center top no-repeat;
+    background-size: cover;
+}
+.dark .titulo-maquiavelismo {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/maquiavelismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-platonicos {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/platonicos.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-racionalismo {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/floresta-nevoa.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-iluminismo {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/floresta-pinheiro.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-fenomenologia {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/nuvens.jpg) center center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-renascimento {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/estatua-davi.jpg) center no-repeat;
+    background-size: cover;
+}
