@@ -19,6 +19,18 @@ html, body {
     transition: .3s;
     max-zoom: 1;
 }
+.criador {
+    width: 100%;
+    height: 100%;
+    background: #d6d6d6;
+    margin: auto;
+}
+.img-criador {
+    width: 148px;
+    height: 220px;
+    margin: auto;
+    overflow: hidden;
+}
 .img {
     width: 10px;
     height: 10px;
