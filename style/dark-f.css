@@ -66,6 +66,9 @@
     color: #137547;
     text-decoration: underline;
 }
+.dark .ref {
+    color: #137547;
+}
 @media screen and (max-width:883px) {
 }
 .dark h1::selection {

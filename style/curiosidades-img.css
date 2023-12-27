@@ -2,3 +2,16 @@
     background: #d6d6d6 url(../img/curiosidades/curiosidades.jpg) center no-repeat;
     background-size: cover;
 }
+
+/* titulo */
+.titulo-teste {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/curiosidades/curiosidades.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* dark */
+
+.dark .titulo-teste {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/curiosidades/curiosidades.jpg) center no-repeat;
+    background-size: cover;
+}

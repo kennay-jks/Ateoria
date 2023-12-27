@@ -53,11 +53,23 @@
     background-size: cover;
 }
 .titulo-estoico {
-    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/estoico.jpg) center no-repeat;
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/tarde-min.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-metafisica {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/fumaça-metafisica.jpg) center no-repeat;
     background-size: cover;
 }
 .titulo-maquiavelismo {
     background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/maquiavelismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-existencialismo {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/olho-existencialismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-sofistas {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/professor-sofistas.jpg) center no-repeat;
     background-size: cover;
 }
 .titulo-platonicos {
@@ -88,11 +100,23 @@
     background-size: cover;
 }
 .dark .titulo-estoico {
-    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/estoico.jpg) center top no-repeat;
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/tarde-min.jpg) center top no-repeat;
+    background-size: cover;
+}
+.dark .titulo-metafisica {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/fumaça-metafisica.jpg) center no-repeat;
     background-size: cover;
 }
 .dark .titulo-maquiavelismo {
     background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/maquiavelismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-existencialismo {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/olho-existencialismo.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-sofistas {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/professor-sofistas.jpg) center no-repeat;
     background-size: cover;
 }
 .dark .titulo-platonicos {
