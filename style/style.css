@@ -39,8 +39,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding: 25px 10px 50px 10px;
     width: 80%;
     height: auto;
 }
@@ -96,9 +95,9 @@ main {
     flex-basis: 5%;
     flex-grow: .1;
     text-decoration: none;
-    min-width: 160px;
-    max-width: 160px;
-    height: 250px;
+    min-width: 148px;
+    max-width: 148px;
+    height: 230px;
     box-shadow: 6px 6px 13px #00000057;
     border-radius: 3px;
 }
