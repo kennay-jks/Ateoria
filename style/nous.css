@@ -127,6 +127,16 @@ strong {
 .img-fil img {
     height: 200px;
 }
+.img-center {
+    width: 400px;
+    height: 267px;
+    margin: auto;
+    border-radius: 15px;
+}
+.img-center img {
+    width: 100%;
+    height: 100%;
+}
 #top {
     cursor: pointer;
     width: 30px;
@@ -157,6 +167,11 @@ footer {
     .bio {
         height: 91vh;
         padding-top: 20px;
+    }
+    .img-center {
+        width: 250px;
+        height: 167px;
+        margin: auto;
     }
     .env-concei {
         height: 100%;
