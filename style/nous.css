@@ -86,6 +86,7 @@ main {
     height: 200px;
 }
 .add {
+    overflow: hidden;
     max-width: 300px;
     height: 250px;
     background: #161616;
