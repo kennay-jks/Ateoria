@@ -1,0 +1,18 @@
+
+DADOS PESSOAIS
+
+Nome* Jeckson Silva
+CPF* 012.542.884-73
+RG* 1.874.656
+Título Eleitoral* nº 021017411678
+Nome da mãe* Maria Dapaz Silva
+Nome do pai* Não Declarado
+Nascimento* 05/03/1984
+Logradouro* Rua. Dr. Jorácio Mamede Galvão, nº 297
+CEP* 59370-000
+Bairro* Luiz Gonzaga
+Município* Acari - RN
+
+
+
+
